@@ -18,6 +18,7 @@ interface ApiService {
         @Query("image_type") imageType: String?,
         @Query("order") order: String?,
         @Query("per_page") page: Int,
+        @Query("editors_choice") editorsChoice: Boolean,
         @Query("q") query: String?
     ): Observable<PhotosResponse>?
 

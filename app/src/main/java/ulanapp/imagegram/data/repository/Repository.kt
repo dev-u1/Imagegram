@@ -6,4 +6,5 @@ import ulanapp.imagegram.data.model.PhotosResponse
 interface Repository {
 
     fun getPhotos(isPopular: Boolean, query: String): Observable<PhotosResponse>
+    fun getEditorChoicePhotos(): Observable<PhotosResponse>
 }

@@ -23,7 +23,11 @@ class PixabayRepositoryImpl : Repository {
     }
 
     override fun getPhotos(isPopular: Boolean, query: String): Observable<PhotosResponse> {
-        return mApiService.getPhotos(API_KEY, "all", getLatestTitle(isPopular), 30, query)!!
+        return mApiService.getPhotos(API_KEY, "all", getLatestTitle(isPopular), 30,false,  query)!!
+    }
+
+    override fun getEditorChoicePhotos(): Observable<PhotosResponse> {
+        return mApiService.getPhotos(API_KEY, "all", "popular", 15,true,  "")!!
     }
 
     private fun getLatestTitle(isPopular: Boolean): String{
