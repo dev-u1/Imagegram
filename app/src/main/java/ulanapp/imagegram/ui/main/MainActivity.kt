@@ -12,9 +12,9 @@ import ulanapp.imagegram.helpers.DISCOVER_FRAGMENT
 import ulanapp.imagegram.helpers.HOME_FRAGMENT
 import ulanapp.imagegram.helpers.LIKED_FRAGMENT
 import ulanapp.imagegram.listeners.CallFragmentListener
-import ulanapp.imagegram.ui.fragments.DiscoverFragment
+import ulanapp.imagegram.ui.discover.DiscoverFragment
 import ulanapp.imagegram.ui.home.HomeFragment
-import ulanapp.imagegram.ui.fragments.LikedFragment
+import ulanapp.imagegram.ui.liked.LikedFragment
 
 class MainActivity : AppCompatActivity(), CallFragmentListener {
 

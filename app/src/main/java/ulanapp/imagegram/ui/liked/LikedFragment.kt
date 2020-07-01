@@ -1,4 +1,4 @@
-package ulanapp.imagegram.ui.fragments
+package ulanapp.imagegram.ui.liked
 
 import android.os.Bundle
 import android.util.Log
