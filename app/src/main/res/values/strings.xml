@@ -1,11 +1,25 @@
 <resources>
     <string name="app_name">Imagegram</string>
 
-    <string-array name="chips">
-        <item>popular</item>
-        <item>latest</item>
-        <item>beautiful</item>
-        <item>modest</item>
-        <item>2020</item>
+    <string-array name="category">
+        <item>BACKGROUNDS</item>
+        <item>FASHION</item>
+        <item>NATURE</item>
+        <item>SCIENCE</item>
+        <item>EDUCATION</item>
+        <item>FEELINGS</item>
+        <item>HEALTH</item>
+        <item>PEOPLE</item>
+        <item>RELIGION</item>
+        <item>PLACES</item>
+        <item>ANIMALS</item>
+        <item>COMPUTER</item>
+        <item>FOOD</item>
+        <item>SPORTS</item>
+        <item>TRAVEL</item>
+        <item>BUILDINGS</item>
+        <item>BUSINESS</item>
+        <item>MUSIC</item>
     </string-array>
+
 </resources>
